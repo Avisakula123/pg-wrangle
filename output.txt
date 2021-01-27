@@ -1,1 +1,20 @@
-20
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+ "http://www.w3.org/TR/REC-html40/loose.dtd">
+ 
+ 
+ Merchant of Venice: Entire Play
+ 
+ 
+ <LINK rel="stylesheet" type="text/css" media="screen"
+       href="/shake.css">
+ 
+ 
+
+
+The Merchant of Venice
+
+      Shakespeare homepage 
+    | Merchant of Venice 
+    | Entire play
+
+
