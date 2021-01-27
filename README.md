@@ -16,10 +16,7 @@ shell-data-processing assignment challenge
 
 ``` curl "http://shakespeare.mit.edu/merchant/full.html" -O "data.txt"
 ```
-
-```
-sed command used to remove angular brackets in entire data file.
-```
+- sed command used to remove angular brackets in entire data file.
 
 ``` 
 curl "http://shakespeare.mit.edu/merchant/full.html" | sed 's/<\/*[^>]*>//g' > A.txt
