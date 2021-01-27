@@ -9,17 +9,38 @@ shell-data-processing assignment challenge
 - GOBBO
 - NERISSA
 
-## The question is who speaks more and the commands used are mentioned below.
-
-- The commands used are 
-- curl "http://shakespeare.mit.edu/merchant/full.html" -O "data.txt"
-- sed command used to remove angular brackets in entire data file.
-- curl "http://shakespeare.mit.edu/merchant/full.html" | sed 's/<\/*[^>]*>//g' > A.txt
-- $ grep 'GOBBO' 'A.txt' -c
-- $ grep 'NERISSA' 'A.txt' -c
-- $ grep 'GOBBO' 'A.txt' -c > "gobbo-output.txt"
-- $ grep 'NERISSA' 'A.txt' -c > "nerissa-output.txt"
-
+## The question is who speaks more 
 - 'GOBBO' speaks 20 times and 'NERISSA' speaks 46 times.
+
+## The commands used are mentioned below.
+
+``` curl "http://shakespeare.mit.edu/merchant/full.html" -O "data.txt"
+```
+
+```
+sed command used to remove angular brackets in entire data file.
+```
+
+``` 
+curl "http://shakespeare.mit.edu/merchant/full.html" | sed 's/<\/*[^>]*>//g' > A.txt
+```
+
+```
+$ grep 'GOBBO' 'A.txt' -c
+```
+
+```
+ $ grep 'NERISSA' 'A.txt' -c
+```
+
+```
+$ grep 'GOBBO' 'A.txt' -c > "gobbo-output.txt"
+```
+
+```
+$ grep 'NERISSA' 'A.txt' -c > "nerissa-output.txt"
+```
+
+
 
 
